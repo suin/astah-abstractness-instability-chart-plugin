@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <extension point="com.change_vision.astah.ui.actionSets">
+        <actionSet label="%action_set_label"
+                   visible="true"
+                   id="io.suin.astah.jsonexport.export_json.actionSet">
+            <action label="%menu_label"
+                    icon="icons/sample.gif"
+                    class="io.suin.astah.jsonexport.TemplateAction"
+                    tooltip="%menu_tooltip"
+                    menubarPath="tool/export_csv"
+                    id="export_json">
+            </action>
+            <action label="Create Abstractness Instability Chart"
+                    icon="icons/sample.gif"
+                    class="io.suin.astah.jsonexport.CreateAbstractnessInstabilityChartAction"
+                    tooltip="%menu_tooltip"
+                    menubarPath="tool/export_csv"
+                    id="create_abstractness_instability_chart">
+            </action>
+        </actionSet>
+    </extension>
+</plugin>
