@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <extension point="com.change_vision.astah.ui.actionSets">
+        <actionSet label="%action_set_label"
+                   visible="true"
+                   id="io.suin.astah.plugin.abstractnessinstabilitychart.actionSet">
+            <action label="%menu_label"
+                    icon="icons/sample.gif"
+                    class="io.suin.astah.plugin.abstractnessinstabilitychart.CreateAbstractnessInstabilityChartAction"
+                    tooltip="%menu_tooltip"
+                    menubarPath="tool/traceability"
+                    id="create_abstractness_instability_chart">
+            </action>
+        </actionSet>
+    </extension>
+</plugin>
